@@ -35,9 +35,11 @@ public class ModItem {
                     .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 3000, 1), 1.0f) // 100%几率获得速度
                     .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 2000, 2), 1.0f) // 100%几率获得生命恢复
                     .alwaysEdible() // 即使满饥饿值也可以吃
-                    .build()));
+                    .build())
+            .rarity(Rarity.RARE)) { // 添加稀有级稀有度（蓝色名称）
+    };
 
-    // 附魔光效食物 - 使用匿名内部类覆盖 hasGlint 方法
+    // 附魔效果食物
     public static final Item enchantment_apple_pie = new Item(new Item.Settings()
             .food(new FoodComponent.Builder()
                     .hunger(8) // 恢复8点饥饿值（4个鸡腿）
@@ -49,7 +51,7 @@ public class ModItem {
                     .statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 6000, 0), 1.0f) // 抗性提升
                     .alwaysEdible() // 即使满饥饿值也可以吃
                     .build())
-            .rarity(Rarity.EPIC)){ // 添加史诗级稀有度（粉色名称）
+            .rarity(Rarity.EPIC)) { // 添加史诗级稀有度（紫色名称）
 
         // 覆盖方法添加附魔光效
         @Override
