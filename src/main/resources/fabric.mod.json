@@ -41,7 +41,7 @@
 	"suggests": {
 		"another-mod": "*"
 	}
-		"custom": {
+	"custom": {
 		"modmenu": {
 			"icon": "icon.png"
 		}
