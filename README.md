@@ -1,3 +1,4 @@
+![image](src/main/resources/assets/a-better-foods/icon.png)
 # A Better Foods (更好的食物)
 一个增加多种原版之外的食物模组  
 原版食物总是那么的单调，这款模组增加了许多新的食物制作方式和食物！  
