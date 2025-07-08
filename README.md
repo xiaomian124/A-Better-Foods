@@ -6,7 +6,7 @@
 目前支持Fabric1.20.1  
 不需要任何前置  
 # 交流&链接
-KOOK: https://kook.vip/CmFUHw
+KOOK: https://kook.vip/CmFUHw  
 Discord: https://discord.gg/wkjwUCch  
 Modrinth: https://modrinth.com/mod/a-better-foods  
 Mcmod: 在审核  
