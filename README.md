@@ -6,9 +6,9 @@
 目前支持Fabric1.20.1  
 不需要任何前置  
 # 交流&链接
-Discord: https://discord.gg/wkjwUCch
-Modrinth: https://modrinth.com/mod/a-better-foods
-Mcmod: 在审核
+Discord: https://discord.gg/wkjwUCch  
+Modrinth: https://modrinth.com/mod/a-better-foods  
+Mcmod: 在审核  
 Curseforge: 在审核
 # 关于
 我是一位Java初学者，有些代码不完整或有问题请谅解！  
