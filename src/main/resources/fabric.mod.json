@@ -17,20 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"com.xiaomian124.abf.ABetterFoods"
-		],
-		"client": [
-			"com.xiaomian124.abf.ABetterFoodsClient"
-		],
-		"fabric-datagen": [
-			"com.xiaomian124.abf.ABetterFoodsDataGenerator"
 		]
 	},
 	"mixins": [
-		"a-better-foods.mixins.json",
-		{
-			"config": "a-better-foods.client.mixins.json",
-			"environment": "client"
-		}
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
@@ -40,7 +29,7 @@
 	},
 	"suggests": {
 		"another-mod": "*"
-	}
+	},
 	"custom": {
 		"modmenu": {
 			"icon": "icon.png"
