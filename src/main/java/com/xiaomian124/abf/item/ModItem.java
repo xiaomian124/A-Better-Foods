@@ -1,56 +1,30 @@
 package com.xiaomian124.abf.item;
 
-import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.item.FoodComponent;
+import com.google.common.collect.Lists;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
-import net.minecraft.client.item.TooltipContext;
-import net.minecraft.text.Text;
-import net.minecraft.util.Formatting;
-import net.minecraft.world.World;
-import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
 public class ModItem {
+    // 物品记录表
+    public static final List<Item> ITEMS = Lists.newArrayList();
 
     // 基础食物
-    public static final Item apple_pie = new Item(new Item.Settings()
-            .food(new FoodComponent.Builder()
-                    .hunger(8) // 恢复8点饥饿值（4个鸡腿）
-                    .saturationModifier(3.6f) // 饱和度
-                    .build()));
+    public static final Item APPLE_PIE = new Item(new Item.Settings().food(FoodComponents.APPLE_PIE_COMPONENT));
 
     // 效果食物
-    public static final Item gold_apple_pie = new Item(new Item.Settings()
-            .food(new FoodComponent.Builder()
-                    .hunger(8) // 恢复8点饥饿值（4个鸡腿）
-                    .saturationModifier(3.6f)
-                    .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 1200, 2), 1.0f) // D:时间，C:100%几率获得伤害吸收
-                    .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 3000, 1), 1.0f) // 100%几率获得速度
-                    .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 2000, 2), 1.0f) // 100%几率获得生命恢复
-                    .alwaysEdible() // 即使满饥饿值也可以吃
-                    .build())
-            .rarity(Rarity.RARE)) { // 添加稀有级稀有度（蓝色名称）
-    };
+    public static final Item GOLDEN_APPLE_PIE = new Item(new Item.Settings()
+            .food(FoodComponents.GOLDEN_APPLE_PIE_COMPONENT)
+            .rarity(Rarity.RARE)); // 添加稀有级稀有度（蓝色名称）
 
     // 附魔效果食物
-    public static final Item enchantment_apple_pie = new Item(new Item.Settings()
-            .food(new FoodComponent.Builder()
-                    .hunger(8) // 恢复8点饥饿值（4个鸡腿）
-                    .saturationModifier(3.6f)
-                    .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 4000, 1), 1.0f) // 100%几率获得速度
-                    .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 2000, 3), 1.0f) // 伤害吸收 IV
-                    .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 2000, 1), 1.0f) // 生命恢复 II
-                    .statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 6000, 0), 1.0f) // 防火
-                    .statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 6000, 0), 1.0f) // 抗性提升
-                    .alwaysEdible() // 即使满饥饿值也可以吃
-                    .build())
+    public static final Item ENCHANTMENT_GOLDEN_APPLE_PIE = new Item(new Item.Settings()
+            .food(FoodComponents.ENCHANTMENT_GOLDEN_APPLE_PIE_COMPONENT)
             .rarity(Rarity.EPIC)) { // 添加史诗级稀有度（紫色名称）
 
         // 覆盖方法添加附魔光效
@@ -62,12 +36,16 @@ public class ModItem {
 
     // 注册所有食物
     public static void registerFoods() {
-        registerFood("apple_pie", apple_pie);
-        registerFood("gold_apple_pie", gold_apple_pie);
-        registerFood("enchantment_apple_pie", enchantment_apple_pie);
+        registerFood("apple_pie", APPLE_PIE);
+        registerFood("gold_apple_pie", GOLDEN_APPLE_PIE);
+        registerFood("enchantment_apple_pie", ENCHANTMENT_GOLDEN_APPLE_PIE);
     }
 
-    private static void registerFood(String name, Item item) {
+    private static void registerFood(final String name, final Item item) {
+        // 向 Minecraft 注册物品
         Registry.register(Registries.ITEM, new Identifier("a-better-foods", name), item);
+
+        // 然后提交到模组物品记录表
+        ITEMS.add(item);
     }
 }

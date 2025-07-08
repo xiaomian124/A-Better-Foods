@@ -1,21 +1,22 @@
 package com.xiaomian124.abf;
 
-import net.fabricmc.api.ModInitializer;
-import com.xiaomian124.abf.item.ModItemGroups;
 import com.xiaomian124.abf.item.ModItem;
+import com.xiaomian124.abf.item.ModItemGroups;
+import net.fabricmc.api.ModInitializer;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class ABetterFoods implements ModInitializer {
-	public static final String MOD_ID = "a-better-foods";
+	// ID 中只能出现 [a-z],[0-9],[_]
+	public static final String MOD_ID = "abetterfoods";
+	public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
 		ModItem.registerFoods(); // 注册所有自定义物品
 		ModItemGroups.registerItemGroups();
 
-		System.out.println("[" + MOD_ID + "] Food items registered!");
+		LOGGER.info("Food Items Registered!");
 	}
 }
 

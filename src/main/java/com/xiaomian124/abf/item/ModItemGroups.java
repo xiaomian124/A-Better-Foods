@@ -1,35 +1,23 @@
 package com.xiaomian124.abf.item;
 
-import com.xiaomian124.abf.YourMod;
+import com.xiaomian124.abf.ABetterFoods;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.RegistryKeys;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    // 定义物品组注册键
-    public static final RegistryKey<ItemGroup> FOOD_GROUP = RegistryKey.of(RegistryKeys.ITEM_GROUP,
-            new Identifier(YourMod.MOD_ID, "food"));
-
     // 注册所有物品组
     public static void registerItemGroups() {
-        // 主物品组
-
         // 食物物品组
-        Registry.register(Registries.ITEM_GROUP, FOOD_GROUP,
+        Registry.register(Registries.ITEM_GROUP, new Identifier(ABetterFoods.MOD_ID, "food_group"),
                 FabricItemGroup.builder()
-                        .icon(() -> new ItemStack(ModItem.apple_pie))
-                        .displayName(Text.translatable("itemGroup." + YourMod.MOD_ID + ".food"))
-                        .entries((context, entries) -> {
-                            entries.add(ModItem.apple_pie);
-                            entries.add(ModItem.gold_apple_pie);
-                            entries.add(ModItem.enchantment_apple_pie);
-                        })
+                        .icon(() -> new ItemStack(ModItem.APPLE_PIE))
+                        .displayName(Text.translatable("itemGroup.abf.food"))
+                        // 从记录表取出全部物品并自动注册到创造模式物品组
+                        .entries((context, entries) -> ModItem.ITEMS.forEach(entries::add))
                         .build());
     }
 }
