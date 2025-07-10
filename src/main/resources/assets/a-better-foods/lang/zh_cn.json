@@ -1,0 +1,20 @@
+{
+  "item.a-better-foods.apple_pie": "苹果派",
+  "item.a-better-foods.gold_apple_pie": "金苹果派",
+  "item.a-better-foods.enchantment_apple_pie": "附魔金苹果派",
+  "item.a-better-foods.cream": "奶油",
+  "item.a-better-foods.cream_mushroom_soup": "奶油蘑菇汤",
+  "item.a-better-foods.cod_soup": "鳕鱼汤",
+  "item.a-better-foods.salmon_soup": "鲑鱼汤",
+  "item.a-better-foods.vegetable_salad": "蔬菜沙拉",
+  "item.a-better-foods.cereal": "麦片",
+  "item.a-better-foods.gold_cereal": "金麦片",
+  "item.a-better-foods.enchantment_cereal": "附魔金麦片",
+  "item.a-better-foods.apple_cereal": "苹果麦片",
+  "item.a-better-foods.carrot_cereal": "胡萝卜麦片",
+  "item.a-better-foods.potato_cereal": "土豆麦片",
+  "item.a-better-foods.watermelon_cereal": "西瓜麦片",
+  "item.a-better-foods.chorus_fruit_cereal": "紫颂果麦片",
+  "item.a-better-foods.beetroot_cereal": "甜菜根麦片",
+  "itemGroup.abf.food": "ABF食物"
+}
