@@ -1,0 +1,20 @@
+{
+  "item.a-better-foods.apple_pie": "Apple pie",
+  "item.a-better-foods.gold_apple_pie": "Golden Apple pie",
+  "item.a-better-foods.enchantment_apple_pie": "Enchanted Golden Apple pie",
+  "item.a-better-foods.cream": "Cream",
+  "item.a-better-foods.cream_mushroom_soup": "Cream mushroom soup",
+  "item.a-better-foods.cod_soup": "Cod soup",
+  "item.a-better-foods.salmon_soup": "Salmon soup",
+  "item.a-better-foods.vegetable_salad": "Vegetable salad",
+  "item.a-better-foods.cereal": "Cereal",
+  "item.a-better-foods.gold_cereal": "Golden cereal",
+  "item.a-better-foods.enchantment_cereal": "Enchanted Golden cereal",
+  "item.a-better-foods.apple_cereal": "Apple cereal",
+  "item.a-better-foods.carrot_cereal": "Carrot cereal",
+  "item.a-better-foods.potato_cereal": "Potato cereal",
+  "item.a-better-foods.watermelon_cereal": "Watermelon cereal",
+  "item.a-better-foods.chorus_fruit_cereal": "Chorus fruit cereal",
+  "item.a-better-foods.beetroot_cereal": "Beetroot cereal",
+  "itemGroup.abf.food": "ABF Food"
+}
