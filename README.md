@@ -9,11 +9,8 @@
 KOOK: https://kook.vip/CmFUHw  
 Discord: https://discord.gg/wkjwUCch  
 Modrinth: https://modrinth.com/mod/a-better-foods  
-<<<<<<< HEAD
 Minebbs: 在审核  
-=======
 Minebbs: https://www.minebbs.com/resources/a-better-foods.12010/  
->>>>>>> origin/main
 Mcmod: 在审核  
 Curseforge: 在审核
 ### 有能力的可以支持下，你的支持是我更新最大的动力QWQ ###
