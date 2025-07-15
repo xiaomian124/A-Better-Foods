@@ -8,10 +8,9 @@
 # 交流&链接
 KOOK: https://kook.vip/CmFUHw  
 Discord: https://discord.gg/wkjwUCch  
-Modrinth: https://modrinth.com/mod/a-better-foods  
+Modrinth: 在审核  
 Curseforge: https://www.curseforge.com/minecraft/mc-mods/a-better-foods  
-Minebbs: https://www.minebbs.com/resources/a-better-foods.12010/  
-Mcmod: 在审核
+Minebbs: https://www.minebbs.com/resources/a-better-foods.12010/
 ### 有能力的可以支持下，你的支持是我更新最大的动力QWQ ###
 爱发电: https://afdian.tv/a/xiaomian124
 # 关于
