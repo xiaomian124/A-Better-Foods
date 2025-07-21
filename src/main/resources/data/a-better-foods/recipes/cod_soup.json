@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    "FFF"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:water\"}"
+    },
+    "C": {
+      "item": "minecraft:cod"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "a-better-foods:cod_soup",
+    "count": 1
+  }
+}
