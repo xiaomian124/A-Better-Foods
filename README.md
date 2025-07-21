@@ -4,6 +4,7 @@
 原版食物总是那么的单调，这款模组增加了许多新的食物制作方式和食物！  
 # 支持
 目前支持Fabric1.20.1  
+推荐搭配[JEI](https://modrinth.com/mod/jei)模组一起使用  
 不需要任何前置  
 # 交流&链接
 KOOK: https://kook.vip/CmFUHw  
