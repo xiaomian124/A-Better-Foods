@@ -1,16 +1,23 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#WB",
+    "FFF"
+  ],
+  "key": {
+    "#": {
       "item": "minecraft:mushroom_stew"
     },
-    {
+    "W": {
       "item": "a-better-foods:cream"
     },
-    {
+    "B": {
       "item": "minecraft:brown_mushroom"
+    },
+    "F": {
+      "item": "minecraft:flint"
     }
-  ],
+  },
   "result": {
     "item": "a-better-foods:cream_mushroom_soup",
     "count": 1

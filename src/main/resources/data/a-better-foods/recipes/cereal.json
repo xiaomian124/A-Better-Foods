@@ -1,19 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#SE",
-    "WWW",
+    "#WW",
     "QQQ"
   ],
   "key": {
     "#": {
-      "item": "minecraft:apple"
-    },
-    "S": {
-      "item": "minecraft:sugar"
-    },
-    "E": {
-      "item": "minecraft:egg"
+      "item": "minecraft:milk_bucket"
     },
     "W": {
       "item": "minecraft:wheat"
@@ -23,7 +16,7 @@
     }
   },
   "result": {
-    "item": "a-better-foods:apple_pie",
+    "item": "a-better-foods:cereal",
     "count": 1
   }
 }
