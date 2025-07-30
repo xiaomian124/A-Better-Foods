@@ -86,6 +86,17 @@ public class ModItem {
     // 紫颂果麦片
     public static final Item CHORUS_FRUIT_CEREAL = new Item(new Item.Settings().food(FoodComponents.CHORUS_FRUIT_CEREAL_COMPONENT));
 
+    // 神奇药水
+    public static final Item MAGIC_POTION = new Item(new Item.Settings()
+            .food(FoodComponents.MAGIC_POTION_COMPONENT)
+            .rarity(Rarity.EPIC)) {
+
+        @Override
+        public boolean hasGlint(ItemStack stack) {
+            return true;
+        }
+    };
+
     // 注册所有食物
     public static void registerFoods() {
         registerFood("apple_pie", APPLE_PIE);
@@ -105,6 +116,7 @@ public class ModItem {
         registerFood("watermelon_cereal", WATERMELON_CEREAL);
         registerFood("beetroot_cereal", BEETROOT_CEREAL);
         registerFood("chorus_fruit_cereal", CHORUS_FRUIT_CEREAL);
+        registerFood("magic_potion", MAGIC_POTION);
     }
 
     private static void registerFood(final String name, final Item item) {

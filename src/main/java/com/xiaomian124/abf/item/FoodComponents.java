@@ -45,6 +45,34 @@ public class FoodComponents {
     public static final FoodComponent WATERMELON_CEREAL_COMPONENT = createFoodComponent(7, 0.24f, false);
     public static final FoodComponent BEETROOT_CEREAL_COMPONENT = createFoodComponent(7, 0.24f, false);
     public static final FoodComponent CHORUS_FRUIT_CEREAL_COMPONENT = createFoodComponent(7, 0.24f, false);
+    public static final FoodComponent MAGIC_POTION_COMPONENT = createFoodComponent(0, 0f, true,
+            new StatusEffectInstance(StatusEffects.HERO_OF_THE_VILLAGE, 400, 1),
+            new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, 400, 1),
+            new StatusEffectInstance(StatusEffects.CONDUIT_POWER, 400, 1),
+            new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 400, 1),
+            new StatusEffectInstance(StatusEffects.SLOW_FALLING, 400, 1),
+            new StatusEffectInstance(StatusEffects.HASTE, 400, 1),
+            new StatusEffectInstance(StatusEffects.RESISTANCE, 400, 1),
+            new StatusEffectInstance(StatusEffects.STRENGTH, 400, 1),
+            new StatusEffectInstance(StatusEffects.ABSORPTION, 400, 1),
+            new StatusEffectInstance(StatusEffects.REGENERATION, 400, 1),
+            new StatusEffectInstance(StatusEffects.WATER_BREATHING, 400, 1),
+            new StatusEffectInstance(StatusEffects.SPEED, 400, 1),
+            new StatusEffectInstance(StatusEffects.JUMP_BOOST, 400, 1),
+            new StatusEffectInstance(StatusEffects.NIGHT_VISION, 400, 1),
+            new StatusEffectInstance(StatusEffects.INVISIBILITY, 400, 1),
+            new StatusEffectInstance(StatusEffects.BAD_OMEN, 400, 1),
+            new StatusEffectInstance(StatusEffects.GLOWING, 400, 1),
+            new StatusEffectInstance(StatusEffects.DARKNESS, 400, 1),
+            new StatusEffectInstance(StatusEffects.WITHER, 400, 1),
+            new StatusEffectInstance(StatusEffects.NAUSEA, 400, 1),
+            new StatusEffectInstance(StatusEffects.SLOWNESS, 400, 1),
+            new StatusEffectInstance(StatusEffects.HUNGER, 400, 1),
+            new StatusEffectInstance(StatusEffects.LEVITATION, 400, 1),
+            new StatusEffectInstance(StatusEffects.BLINDNESS, 400, 1),
+            new StatusEffectInstance(StatusEffects.MINING_FATIGUE, 400, 1),
+            new StatusEffectInstance(StatusEffects.WEAKNESS, 400, 1),
+            new StatusEffectInstance(StatusEffects.POISON, 400, 1));
 
     /**
      * 创建一个食物构造器。
