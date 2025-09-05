@@ -1,3 +1,15 @@
+------
+
+<div align="center">
+
+# 语言
+
+[中文][cn-badge][README]
+[English][en-badge][README_en]
+
+</div>
+
+------
 ![image](https://github.com/xiaomian124/A-Better-Foods/blob/c2cdea01ae0df7a517c634321db7084a83199030/src/main/resources/icon.png)
 # A Better Foods (更好的食物)
 一个增加多种原版之外的食物模组  
