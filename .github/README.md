@@ -1,8 +1,10 @@
 ------
 <div align="center">
+
 # 语言
 [🇨🇳 中文](README.md) | [🇺🇸 English](README_en.md)
 </div>
+
 ------
 ![image](https://github.com/xiaomian124/A-Better-Foods/blob/c2cdea01ae0df7a517c634321db7084a83199030/src/main/resources/icon.png)
 # A Better Foods (更好的食物)
