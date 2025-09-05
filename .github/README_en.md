@@ -1,12 +1,8 @@
 ------
-
 <div align="center">
 
-  # Language
-
-[![Lang-Readme-CN][cn-badge]][README]
-[![Lang-Readme-EN][en-badge]][README_en]
-
+# Language
+[🇨🇳 中文](README.md) | [🇺🇸 English](README_en.md)
 </div>
 
 ------
