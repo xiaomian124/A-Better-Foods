@@ -1,20 +1,20 @@
 ![image](src/main/resources/icon.png)
-# A Better Foods (更好的食物)
-一个增加多种原版之外的食物模组  
-原版食物总是那么的单调，这款模组增加了许多新的食物制作方式和食物！  
-# 支持
-目前支持Fabric1.20.1  
-推荐搭配 [JEI](https://modrinth.com/mod/jei) 模组一起使用  
-不需要任何前置  
-# 交流&链接
+# A Better Foods
+This is a mod that adds various foods beyond the original Minecraft version  
+The food in the original Minecraft was always so monotonous. This mod has added many new ways to make food and various types of food!  
+# Requirements
+Currently supports only Fabric1.20.1  
+It is recommended to use it in conjunction with the [JEI](https://modrinth.com/mod/jei) mod.  
+No dependency are required.  
+# Chat&Link
 KOOK: https://kook.vip/CmFUHw  
 Discord: https://discord.gg/wkjwUCch  
 Modrinth: https://modrinth.com/mod/a-better-foods  
 Curseforge: https://www.curseforge.com/minecraft/mc-mods/a-better-foods  
 Minebbs: https://www.minebbs.com/resources/a-better-foods.12010/
-### 有能力的可以支持下，你的支持是我更新最大的动力QWQ ###
-爱发电: https://afdian.tv/a/xiaomian124
-# 关于
-我是一位Java初学者，有些代码不完整或有问题请谅解！  
-有任何问题或建议请联系我或打开issus提出！  
-联系方式请看我的个人简介  
+### Support this mod, Every donation inspires and gives me the motivation to keep this mod alive and thriving! ###
+Afadian(China): https://afdian.tv/a/xiaomian124
+# About
+I'm a beginner. I've been learning java all the time. Please forgive me if there are any problems or incompleteness in the code!  
+If you have any feedback or suggestions in the mod, please feel free to open issues and let me know at any time, I'll do my best to solve it!  
+Or contact me. For contact information, please check my personal page.  
