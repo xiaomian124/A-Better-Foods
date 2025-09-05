@@ -4,8 +4,8 @@
 
 # 语言
 
-[中文][cn-badge][README]
-[English][en-badge][README_en]
+[中文][cn-badge](README.md)
+[English](README_en.md)
 
 </div>
 
