@@ -4,7 +4,7 @@
 
 # 语言
 
-[🇺🇸 中文](README.md) | [🇨🇳 English](README_en.md)
+[![中文](https://img.shields.io/badge/lang-English-blue.svg)](README.md) [![English](https://img.shields.io/badge/lang-中文-red.svg)](README_en.md)
 
 </div>
 
