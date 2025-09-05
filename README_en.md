@@ -1,6 +1,6 @@
 ![image](src/main/resources/icon.png)
 # A Better Foods
-This is a mod that adds various foods beyond the original Minecraft version  
+This is a mod that adds various foods beyond the original Minecraft version.  
 The food in the original Minecraft was always so monotonous. This mod has added many new ways to make food and various types of food!  
 # Requirements
 Currently supports only Fabric1.20.1  
