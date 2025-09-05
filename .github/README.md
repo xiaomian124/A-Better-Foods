@@ -4,7 +4,7 @@
 
 # 语言
 
-[![🇨🇳 中文][en-badge]](README.md) [![🇺🇸 English](https://flagcdn.com/w320/ag.png)](README_en.md)
+[🇨🇳 中文](README.md) | [🇺🇸 English](README_en.md)
 
 </div>
 
