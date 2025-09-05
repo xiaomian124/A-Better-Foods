@@ -1,3 +1,15 @@
+------
+
+<div align="center">
+
+  # Language
+
+[![Lang-Readme-CN][cn-badge]][README]
+[![Lang-Readme-EN][en-badge]][README_en]
+
+</div>
+
+------
 ![image](https://github.com/xiaomian124/A-Better-Foods/blob/c2cdea01ae0df7a517c634321db7084a83199030/src/main/resources/icon.png)
 # A Better Foods
 This is a mod that adds various foods beyond the original Minecraft version.  
