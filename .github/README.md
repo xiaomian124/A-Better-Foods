@@ -4,7 +4,7 @@
 
 # 语言
 
-[![🇨🇳 中文](badge_cn)](README.md) [![🇺🇸 English](https://img.shields.io/badge/just%20the%20message-8A2BE2)](README_en.md)
+[![🇨🇳 中文][en-badge]](README.md) [![🇺🇸 English](https://img.shields.io/badge/just%20the%20message-8A2BE2)](README_en.md)
 
 </div>
 
