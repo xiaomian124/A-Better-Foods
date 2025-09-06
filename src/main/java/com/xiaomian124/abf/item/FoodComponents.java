@@ -73,6 +73,50 @@ public class FoodComponents {
             new StatusEffectInstance(StatusEffects.MINING_FATIGUE, 400, 1),
             new StatusEffectInstance(StatusEffects.WEAKNESS, 400, 1),
             new StatusEffectInstance(StatusEffects.POISON, 400, 1));
+    public static final FoodComponent WHITE_CUT_CHICKEN_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent STEAMED_VERMICELLI_ROLL_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent STEAMED_BUN_WITH_STUFFING_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent CHICKEN_CLAW_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent SHRIMP_DUMPLING_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent ROASTED_PIGEON_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent ROASTED_GOOSE_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent ROAST_GOOSE_RICE_NOODLES_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent MILK_CUSTARD_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent CRISPY_GRASS_CARP_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent Oyster_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent MEIGAN_CAI_COOKED_WITH_PORK_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent ANCIENT_WELL_ROAST_GOOSE_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent LONGJIANG_PIG_TROTTER_RICE_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent GRINDING_TEA_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent RICE_NOODLE_ROLL_WITH_BEAN_SPROUTS_AND_CHOW_FUN_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent BRAISED_DUCK_WITH_PICKLED_BAMBOO_SHOOTS_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent QINGYUAN_CHICKEN_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent PICKLED_NOODLES_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent RICE_NOODLES_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent WINNOWING_PAN_COOKING_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent RED_RICE_SAUSAGE_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent SATAY_RICE_TEA_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent WRAPPED_STEAMED_ZONGZI_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent CHAR_SIU_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent CHAR_SIU_BUNS_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent CRISPY_PORK_BELLY_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent DRY_PARBOILING_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent BEAN_FLOUR_CAKE_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent BEIJING_ROAST_DUCK_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent CREAM_FRIED_CAKE_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent TWISTED_DOUGH_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent STIR_FRIED_LIVER_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent COOKED_TRIPE_OF_SHEEP_OR_SWINE_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent BEIJING_BEAN_JUICE_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent COKE_RING_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent NOODLES_WITH_SOYBEAN_PASTE_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent SHREDDED_PORK_IN_BEAN_SAUCE_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent LAMB_SCORPION_HOT_POT_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent FRIED_SAUSAGE_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent BRAISED_FIRE_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent GRILLED_MEAT_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent SEASONED_MILLET_MUSH_COMPONENT = createFoodComponent(5, 0.12f, false);
+    public static final FoodComponent CHINESE_STYLE_BAKED_ROLL_COMPONENT = createFoodComponent(5, 0.12f, false);
 
     /**
      * 创建一个食物构造器。

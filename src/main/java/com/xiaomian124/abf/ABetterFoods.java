@@ -1,5 +1,6 @@
 package com.xiaomian124.abf;
 
+import com.xiaomian124.abf.block.ModBlocks;
 import com.xiaomian124.abf.item.ModItem;
 import com.xiaomian124.abf.item.ModItemGroups;
 import net.fabricmc.api.ModInitializer;
@@ -15,6 +16,8 @@ public class ABetterFoods implements ModInitializer {
 	public void onInitialize() {
 		ModItem.registerFoods(); // 注册所有自定义物品
 		ModItemGroups.registerItemGroups();
+		ModBlocks.initialize();
+		ModBlocks.registerBlocks();
 
 		LOGGER.info("Food Items Registered!");
 	}
