@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "a-better-foods",
+	"version": "${version}",
+	"name": "A Better Foods",
+	"description": "The original food in Minecraft was always so monotonous. This mod has added many new ways to make food and various types of food!",
+	"authors": [
+		"xiaomian124"
+	],
+	"contributors": [
+		"Amaroklce"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/a-better-foods",
+		"sources": "https://github.com/xiaomian124/A-Better-Foods",
+		"issues": "https://github.com/xiaomian124/A-Better-Foods/issues"
+	},
+	"license": "CC0-1.0",
+	"icon": "icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.xiaomian124.abf.ABetterFoods"
+		]
+	},
+	"mixins": [
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"icon": "icon.png",
+			"links": {
+				"modmenu.discord": "https://discord.gg/wkjwUCch"
+			}
+		}
+	}
+}

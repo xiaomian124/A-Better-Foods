@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "a-better-foods:cereal"
+    }
+  ],
+  "result": {
+    "item": "a-better-foods:carrot_cereal",
+    "count": 1
+  }
+}

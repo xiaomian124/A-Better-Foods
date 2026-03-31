@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#EB",
+    "TOG",
+    "WPD"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:echo_shard"
+    },
+    "E": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "B": {
+      "item": "minecraft:experience_bottle"
+    },
+    "T": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "O": {
+      "item": "minecraft:ender_eye"
+    },
+    "G": {
+      "item": "minecraft:ghast_tear"
+    },
+    "W": {
+      "item": "minecraft:gold_block"
+    },
+    "P": {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:water\"}"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "a-better-foods:magic_potion",
+    "count": 1
+  }
+}
