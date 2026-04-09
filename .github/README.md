@@ -16,10 +16,11 @@
 不需要任何前置  
 # 交流&链接
 KOOK: https://kook.vip/CmFUHw  
-Discord: https://discord.gg/wkjwUCch  
+Discord: https://discord.gg/RnabpqkqMz
 Modrinth: https://modrinth.com/mod/a-better-foods  
 Curseforge: https://www.curseforge.com/minecraft/mc-mods/a-better-foods  
 Minebbs: https://www.minebbs.com/resources/a-better-foods.12010/
+Mcmod: https://www.mcmod.cn/class/26006.html
 ### 有能力的可以支持下，你的支持是我更新最大的动力QWQ ###
 爱发电: https://afdian.tv/a/xiaomian124
 # 关于
