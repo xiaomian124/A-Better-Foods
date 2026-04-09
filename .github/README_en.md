@@ -16,10 +16,11 @@ It is recommended to use it in conjunction with the [JEI](https://modrinth.com/m
 No dependency are required.  
 # Chat&Link
 KOOK: https://kook.vip/CmFUHw  
-Discord: https://discord.gg/wkjwUCch  
+Discord: https://discord.gg/RnabpqkqMz  
 Modrinth: https://modrinth.com/mod/a-better-foods  
 Curseforge: https://www.curseforge.com/minecraft/mc-mods/a-better-foods  
-Minebbs: https://www.minebbs.com/resources/a-better-foods.12010/
+Minebbs: https://www.minebbs.com/resources/a-better-foods.12010/  
+Mcmod: https://www.mcmod.cn/class/26006.html
 ### Support this mod, Every donation inspires and gives me the motivation to keep this mod alive and thriving! ###
 Afadian(China): https://afdian.tv/a/xiaomian124
 # About
