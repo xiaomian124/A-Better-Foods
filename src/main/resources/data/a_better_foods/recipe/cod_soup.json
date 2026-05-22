@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "unlock": {
+    "advancement": "a_better_foods:root"
+  },
+  "pattern": [
+    "#C#",
+    "FFF"
+  ],
+  "key": {
+    "#": "minecraft:potion",
+    "C": "minecraft:cod",
+    "F": "minecraft:flint"
+  },
+  "result": {
+    "id": "a_better_foods:cod_soup",
+    "count": 1
+  }
+}

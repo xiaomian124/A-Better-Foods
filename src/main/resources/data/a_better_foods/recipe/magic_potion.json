@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "unlock": {
+    "advancement": "a_better_foods:root"
+  },
+  "pattern": [
+    "#EB",
+    "TOG",
+    "WPD"
+  ],
+  "key": {
+    "#": "minecraft:echo_shard",
+    "E": "minecraft:enchanted_golden_apple",
+    "B": "minecraft:experience_bottle",
+    "T": "minecraft:totem_of_undying",
+    "O": "minecraft:ender_eye",
+    "G": "minecraft:ghast_tear",
+    "W": "minecraft:gold_block",
+    "P": "minecraft:potion",
+    "D": "minecraft:diamond_block"
+  },
+  "result": {
+    "id": "a_better_foods:magic_potion",
+    "count": 1
+  }
+}

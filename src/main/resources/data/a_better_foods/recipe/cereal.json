@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "unlock": {
+    "advancement": "a_better_foods:root"
+  },
+  "pattern": [
+    "#WW",
+    "QQQ"
+  ],
+  "key": {
+    "#": "minecraft:milk_bucket",
+    "W": "minecraft:wheat",
+    "Q": "minecraft:quartz"
+  },
+  "result": {
+    "id": "a_better_foods:cereal",
+    "count": 1
+  }
+}

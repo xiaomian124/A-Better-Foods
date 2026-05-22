@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "unlock": {
+    "advancement": "a_better_foods:root"
+  },
+  "ingredients": [
+    "minecraft:melon_slice",
+    "a_better_foods:cereal"
+  ],
+  "result": {
+    "id": "a_better_foods:watermelon_cereal",
+    "count": 1
+  }
+}

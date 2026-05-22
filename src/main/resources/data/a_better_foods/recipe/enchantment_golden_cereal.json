@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#I#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:gold_block",
+    "I": "a_better_foods:golden_cereal"
+  },
+  "result": {
+    "id": "a_better_foods:enchantment_golden_cereal",
+    "count": 1
+  }
+}

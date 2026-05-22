@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ggg",
+    "gIg",
+    "ggg"
+  ],
+  "key": {
+    "g": "minecraft:gold_ingot",
+    "I": "a_better_foods:cereal"
+  },
+  "result": {
+    "id": "a_better_foods:golden_cereal",
+    "count": 1
+  }
+}

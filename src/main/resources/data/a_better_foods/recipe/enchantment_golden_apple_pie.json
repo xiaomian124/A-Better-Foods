@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:gold_block",
+    "G": "a_better_foods:golden_apple_pie"
+  },
+  "result": {
+    "id": "a_better_foods:enchantment_golden_apple_pie",
+    "count": 1
+  }
+}

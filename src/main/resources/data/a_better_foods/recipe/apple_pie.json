@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "unlock": {
+    "advancement": "a_better_foods:root"
+  },
+  "pattern": [
+    "#SE",
+    "WWW",
+    "QQQ"
+  ],
+  "key": {
+    "#": "minecraft:apple",
+    "S": "minecraft:sugar",
+    "E": "minecraft:egg",
+    "W": "minecraft:wheat",
+    "Q": "minecraft:quartz"
+  },
+  "result": {
+    "id": "a_better_foods:apple_pie",
+    "count": 1
+  }
+}

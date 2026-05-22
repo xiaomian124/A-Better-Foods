@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "unlock": {
+    "advancement": "a_better_foods:root"
+  },
+  "pattern": [
+    "#WB",
+    "FFF"
+  ],
+  "key": {
+    "#": "minecraft:mushroom_stew",
+    "W": "a_better_foods:cream",
+    "B": "minecraft:brown_mushroom",
+    "F": "minecraft:flint"
+  },
+  "result": {
+    "id": "a_better_foods:cream_mushroom_soup",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ggg",
+    "gag",
+    "ggg"
+  ],
+  "key": {
+    "g": "minecraft:gold_ingot",
+    "a": "a_better_foods:apple_pie"
+  },
+  "result": {
+    "id": "a_better_foods:golden_apple_pie",
+    "count": 1
+  }
+}
