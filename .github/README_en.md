@@ -11,7 +11,7 @@
 This is a mod that adds various foods beyond the original Minecraft version.  
 The food in the original Minecraft was always so monotonous. This mod has added many new ways to make food and various types of food!  
 # Requirements
-Currently supports only Fabric1.20.1, NeoForge26.1-26.1.2  
+Currently supports only Fabric1.20.1, NeoForge26.1-26.1.2, Forge1.12-1.12.2  
 It is recommended to use it in conjunction with the [JEI](https://modrinth.com/mod/jei) mod.  
 No dependency are required.  
 # Chat&Link
