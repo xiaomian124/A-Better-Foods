@@ -1,0 +1,16 @@
+[{
+  "modid": "a_better_foods",
+  "name": "A Better Foods",
+  "description": "The original food in Minecraft was always so monotonous. This mod has added many new ways to make food and various types of food!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://www.curseforge.com/minecraft/mc-mods/a-better-foods",
+  "updateUrl": "",
+  "authorList": ["xiaomian124"],
+  "credits": "xingchen124, as well as every issues reporter",
+  "logoFile": "assets/a_better_foods/textures/logo.png",
+  "screenshots": [
+    "assets/a_better_foods/textures/screenshots/screenshot1.png"
+  ],
+  "dependencies": []
+}]
