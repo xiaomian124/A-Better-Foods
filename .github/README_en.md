@@ -6,7 +6,7 @@
 </div>
 
 ------
-![image](https://github.com/xiaomian124/A-Better-Foods/blob/c2cdea01ae0df7a517c634321db7084a83199030/src/main/resources/icon.png)
+![image](https://cdn.modrinth.com/data/oYUxdRPH/images/48f7a414ff8379c8debbc84dca9f2375a13a315b.png)
 # A Better Foods
 This is a mod that adds various foods beyond the original Minecraft version.  
 The food in the original Minecraft was always so monotonous. This mod has added many new ways to make food and various types of food!  
