@@ -14,9 +14,8 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 
 version = "1.3.0"
 group = "com.xiaomian124.abf"
-archivesBaseName = "a-better-foods"
+archivesBaseName = "a-better-foods-forge"
 
-// 设置源码编码为 UTF-8，解决中文注释乱码问题
 compileJava.options.encoding = 'UTF-8'
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
@@ -30,7 +29,6 @@ minecraft {
     mappings = "stable_39"
 }
 
-// 从 minecraft.version 中提取主版本号（例如 1.12.2）
 def mcVersion = project.minecraft.version.split('-')[0]
 
 repositories {
@@ -39,10 +37,8 @@ repositories {
 }
 
 dependencies {
-    // 无额外依赖
 }
 
-// 处理资源文件，替换 mcmod.info 中的 ${version} 和 ${mcversion}
 processResources {
     inputs.property "version", project.version
     inputs.property "mcversion", mcVersion
@@ -55,7 +51,6 @@ processResources {
     }
 }
 
-// 可选：自动更新 ABetterFoods.java 中的 VERSION 常量
 task replaceJavaVersion {
     doLast {
         def versionFile = file("src/main/java/com/xiaomian124/abf/ABetterFoods.java")
