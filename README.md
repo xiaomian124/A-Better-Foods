@@ -6,7 +6,7 @@
 </div>
 
 ------
-![image](https://github.com/xiaomian124/A-Better-Foods/blob/c2cdea01ae0df7a517c634321db7084a83199030/src/main/resources/icon.png)
+![image](https://cdn.modrinth.com/data/oYUxdRPH/images/48f7a414ff8379c8debbc84dca9f2375a13a315b.png)
 # A Better Foods (更多的食物)
 一个增加多种原版之外的食物模组  
 原版食物总是那么的单调，这款模组增加了许多新的食物制作方式和食物！  
